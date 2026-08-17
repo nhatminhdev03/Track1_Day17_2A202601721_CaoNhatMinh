@@ -146,10 +146,11 @@ Chọn **một khoảnh khắc cụ thể** mà actor có thể đã trải qua.
 - Họ bắt đầu gặp vướng mắc ở điểm nào?
 
 ```text
-Tình huống bắt đầu
-→ User muốn hoàn thành việc gì
-→ Hiện tại họ làm như thế nào
-→ Điểm bắt đầu gặp vướng mắc
+Hoàn thành một bài học
+→ Học viên muốn lưu và hệ thống lại điều cần nhớ, điều chưa hiểu
+→ Hiện tại họ xem lại highlight, ghi chú rời rạc hoặc tự viết lại ghi chú
+→ Bắt đầu vướng khi các dấu vết nằm rải rác, khó tổng hợp và khó xác định
+  nội dung nào cần ưu tiên xem lại
 ```
 
 ### Mô tả Situation & Job
@@ -195,8 +196,10 @@ Pain là **barrier cản actor hoàn thành job** và **consequence** đi kèm; 
 > Khi **[situation]**, **[actor]** gặp khó khăn trong việc **[job]** vì **[barrier]**, dẫn đến **[consequence]**.
 
 ```
-..........................................................................................
-..........................................................................................
+Khi vừa hoàn thành một bài học, học viên gặp khó khăn trong việc tổng hợp các
+ý chính, phần chưa hiểu và câu hỏi của mình vì các dấu vết học tập nằm rải rác
+ở highlight, ghi chú ngắn hoặc trí nhớ cá nhân; dẫn đến họ mất thời gian tự
+sắp xếp, bỏ sót nội dung cần xem lại và ôn tập kém hiệu quả.
 ```
 
 ### Pain Hypothesis B — cách giải thích cạnh tranh
@@ -204,16 +207,20 @@ Pain là **barrier cản actor hoàn thành job** và **consequence** đi kèm; 
 > Khi **[situation]**, **[actor]** gặp khó khăn trong việc **[job]** vì **[barrier]**, dẫn đến **[consequence]**.
 
 ```
-..........................................................................................
-..........................................................................................
+Khi vừa hoàn thành một bài học, học viên gặp khó khăn trong việc quay lại xử lý
+những phần chưa hiểu vì họ không có đủ thời gian, động lực hoặc thói quen ôn lại
+sau bài học; dẫn đến các câu hỏi và phần chưa hiểu bị bỏ quên, dù họ đã từng
+highlight hoặc ghi chú nội dung.
 ```
 
-**Giả thuyết nhóm chọn để điều tra trước:**  ☐ A  ☐ B
+**Giả thuyết nhóm chọn để điều tra trước:**  v A  ☐ B
 
 **Lý do chọn:**
 
 ```
-..........................................................................................
+Dấu vết như highlight, ghi chú và câu hỏi cho thấy học viên đã chủ động lưu lại
+nội dung trong lúc học. Nhóm cần kiểm chứng trước liệu việc các dấu vết này bị
+phân tán và khó tổng hợp có thực sự khiến họ khó ôn lại hay không.
 ```
 
 ---
@@ -235,11 +242,11 @@ Evidence phải đến từ **sự kiện, hành vi, workaround và hậu quả 
 
 | Cần kiểm tra        | Evidence làm nhóm tin hơn | Evidence làm nhóm nghi ngờ hoặc bác bỏ |
 | --------------------- | ---------------------------- | -------------------------------------------- |
-| Situation có thật   |                              |                                              |
-| Pain có ý nghĩa    |                              |                                              |
-| Workaround tồn tại  |                              |                                              |
-| Consequence tồn tại |                              |                                              |
-| Pattern có lặp      |                              |                                              |
+| Situation có thật   | Học viên kể được một lần gần đây hoàn thành bài học và cần xem lại nội dung; mô tả được các highlight, ghi chú hoặc câu hỏi đã tạo. | Học viên không ghi lại gì, không cần xem lại sau bài học, hoặc không nhớ được sự kiện cụ thể. |
+| Pain có ý nghĩa    | Học viên cho biết việc gom các dấu vết rời rạc tốn thời gian, dễ sót ý hoặc làm họ ngại ôn lại. | Học viên thấy cách hiện tại nhanh, rõ ràng và không gây trở ngại đáng kể. |
+| Workaround tồn tại  | Học viên đã tự chép lại ghi chú, chụp màn hình, dùng ứng dụng khác, mở lại bài học hoặc tạo checklist để tổng hợp. | Học viên không cần workaround nào, hoặc chỉ bỏ qua việc tổng hợp mà không thấy ảnh hưởng. |
+| Consequence tồn tại | Học viên đã bỏ sót phần chưa hiểu, khó tìm lại ý cần ôn, mất nhiều thời gian hoặc học tiếp khi vẫn chưa nắm nội dung. | Học viên vẫn ôn tập tốt, tìm lại thông tin dễ dàng và xử lý phần chưa hiểu kịp thời. |
+| Pattern có lặp      | Học viên kể được tình huống tương tự ở nhiều bài học/môn học hoặc nói đây là thói quen thường xuyên. | Đây chỉ là sự cố đơn lẻ, hiếm khi học viên cần ghi chú hay quay lại nội dung cũ. |
 
 ---
 
@@ -248,22 +255,26 @@ Evidence phải đến từ **sự kiện, hành vi, workaround và hậu quả 
 **Problem Hypothesis nhóm mang sang Chặng 2:**
 
 ```
-..........................................................................................
-..........................................................................................
+Khi vừa hoàn thành bài học, học viên đã tạo highlight, ghi chú hoặc câu hỏi có
+thể gặp khó khăn trong việc tổng hợp các dấu vết rời rạc thành nội dung dễ ôn
+lại; điều này có thể khiến họ bỏ sót phần chưa hiểu hoặc mất nhiều thời gian
+tự sắp xếp ghi chú.
 ```
 
 **Điều gì phải đúng để giả thuyết đứng vững:**
 
 ```
-..........................................................................................
-..........................................................................................
+Học viên thường có nhu cầu xem lại sau bài học, các dấu vết học tập thực sự
+phân tán, và việc tổng hợp chúng hiện là một trở ngại có ý nghĩa đối với việc
+ôn tập hoặc xử lý phần chưa hiểu.
 ```
 
 **Điều gì có thể khiến nhóm sửa hoặc bác bỏ giả thuyết:**
 
 ```
-..........................................................................................
-..........................................................................................
+Giả thuyết cần được sửa hoặc bác bỏ nếu học viên không có nhu cầu xem lại,
+đã dễ dàng tổng hợp ghi chú bằng cách hiện tại, hoặc trở ngại chính là thiếu
+thời gian, động lực hay sự hỗ trợ giải đáp thay vì thông tin rời rạc.
 ```
 
 ### Solution Parking Lot
@@ -272,11 +283,11 @@ Brainstorm **ít nhất năm hướng**, trong đó **ít nhất một hướng 
 
 | # | Hướng giải quyết có thể có | AI / Không sử dụng AI |
 | - | --------------------------------- | ------------------------ |
-| 1 |                                   |                          |
-| 2 |                                   |                          |
-| 3 |                                   |                          |
-| 4 |                                   |                          |
-| 5 |                                   |                          |
+| 1 | Tự động tổng hợp highlight, ghi chú và câu hỏi thành bản ghi chú theo chủ đề sau bài học | AI |
+| 2 | Gợi ý các ý chính, phần chưa hiểu và câu hỏi cần xem lại để học viên chọn đưa vào ghi chú | AI |
+| 3 | Tạo flashcard hoặc câu hỏi ôn tập từ nội dung học và ghi chú cá nhân | AI |
+| 4 | Cung cấp mẫu ghi chú có sẵn để học viên tự kéo thả, phân nhóm và hoàn thiện sau bài học | Không sử dụng AI |
+| 5 | Lưu highlight và ghi chú theo từng bài, kèm danh sách nhắc xem lại theo thời gian | Không sử dụng AI |
 
 > Sau khi điền xong bảng này, **cất toàn bộ solution lại**. Chặng 2 không được để bất kỳ hướng nào ở trên lọt vào câu hỏi phỏng vấn.
 
