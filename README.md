@@ -1,5 +1,6 @@
 # Track1 — Day 17 — Finding and Validating Pain Points
 
+**Repo:** `Track1_Day17_2A202601721_CaoNhatMinh`
 **Case được giao:** Case B — AI Notes: Personal Learning Notes
 
 ---
@@ -51,13 +52,13 @@ Trong khi học, học viên có thể **highlight** một đoạn nội dung, �
 
 Khi bài học kết thúc, **AI Notes** kết hợp những dấu vết này với nội dung bài để tạo một **bản ghi chú có cấu trúc**. Học viên có thể **chỉnh sửa và xác nhận trước khi lưu**.
 
-| Thành phần           | Solution đã mô tả                                                              |
-| ---------------------- | ---------------------------------------------------------------------------------- |
-| **Trigger**      | Học viên hoàn thành bài học                                                  |
-| **Input**        | Nội dung bài, highlights, điểm "Chưa hiểu", câu hỏi và ghi chú cá nhân |
-| **AI action**    | Chọn lọc, nhóm và tổ chức thông tin                                         |
-| **Output**       | Bản ghi chú cá nhân có cấu trúc                                             |
-| **User control** | Học viên chỉnh sửa và xác nhận trước khi lưu                             |
+| Thành phần | Solution đã mô tả |
+|---|---|
+| **Trigger** | Học viên hoàn thành bài học |
+| **Input** | Nội dung bài, highlights, điểm "Chưa hiểu", câu hỏi và ghi chú cá nhân |
+| **AI action** | Chọn lọc, nhóm và tổ chức thông tin |
+| **Output** | Bản ghi chú cá nhân có cấu trúc |
+| **User control** | Học viên chỉnh sửa và xác nhận trước khi lưu |
 
 ### Tiêu chí chọn người phỏng vấn
 
@@ -69,14 +70,41 @@ Người phù hợp để phỏng vấn: **trong bảy ngày gần đây đã gh
 
 ## 3. Cấu trúc repo
 
-| File / thư mục                | Nội dung                                                                                                       | Trạng thái |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------ |
-| `README.md`                   | Đề bài, solution directive, khai báo AI                                                                     | Đã có     |
-| `01-problem-hypothesis.md`    | Giả thuyết user / situation / job / pain rút ngược từ directive + xếp hạng assumption theo mức rủi ro | Chưa làm   |
-| `02-conversation-guide-v1.md` | Guide problem interview bản đầu                                                                              | Chưa làm   |
-| `03-interview-notes/`         | Facts thô từng buổi phỏng vấn (ghi tách riêng khỏi diễn giải)                                         | Chưa làm   |
-| `04-conversation-guide-v2.md` | Guide sau khi sửa + ghi rõ đã đổi gì và vì sao                                                         | Chưa làm   |
-| `05-reflection.md`            | Reflection cá nhân sau khi tự nghe lại phỏng vấn                                                          | Chưa làm   |
+| File / thư mục | Nội dung | Trạng thái |
+|---|---|---|
+| `README.md` | Đề bài, solution directive, khai báo AI | Đã có |
+| `01-problem-hypothesis.md` | Solution → Change → Actor → Situation & Job → Pain → Evidence, chốt problem hypothesis + Solution Parking Lot | Khung đã dựng, đang điền |
+| `02-conversation-guide-v1.md` | Big 3 → tiêu chí tuyển người → lời mở đầu → story opener → Big 3 Questions → probe bank → rà soát & phân công | Khung đã dựng, đang điền |
+| `03-interview-notes/example-interview-record.md` | **Bản mẫu** Interview Record để mỗi thành viên copy ra bản của mình | Đã có |
+| `03-interview-notes/interview-record-*.md` | Facts thô từng buổi phỏng vấn (ghi tách riêng khỏi diễn giải) — mỗi thành viên một file | Chưa làm |
+| `04-conversation-guide-v2.md` | Guide sau khi sửa + ghi rõ đã đổi gì và vì sao | Chưa làm |
+| `05-reflection.md` | Reflection cá nhân sau khi tự nghe lại phỏng vấn | Chưa làm |
+
+---
+
+## 3b. Chặng 3 — Cách các thành viên dùng `03-interview-notes/`
+
+**Yêu cầu:** mỗi thành viên hoàn thành **một lượt làm interviewer**, có **Interview Record** và **bản ghi đã được người tham gia đồng ý**.
+
+**Ba bước:**
+
+1. Copy `03-interview-notes/example-interview-record.md`
+2. Đổi tên thành `03-interview-notes/interview-record-<tên-bạn>.md`
+3. Điền vào bản copy của mình. **Không sửa file mẫu.**
+
+| Thành viên | File của mình | Mã người tham gia | Đúng tiêu chí tuyển | Đã có consent | Đã nộp |
+|---|---|---|---|---|---|
+| _(điền tên)_ | `interview-record-....md` | | ☐ | ☐ | ☐ |
+| _(điền tên)_ | `interview-record-....md` | | ☐ | ☐ | ☐ |
+| _(điền tên)_ | `interview-record-....md` | | ☐ | ☐ | ☐ |
+
+**Ba luật không được vi phạm ở chặng này:**
+
+- Người tham gia phải là **người ngoài nhóm**. Câu trả lời của thành viên cùng nhóm không tính là evidence.
+- Bản ghi phải **được người tham gia đồng ý**. Trong repo chỉ dùng **mã người tham gia**, không có tên thật.
+- **Lời khen** hoặc **"mình sẽ dùng"** **không được coi là bằng chứng về pain** — đẩy xuống mục *Bãi đỗ* trong Interview Record.
+
+**Nhắc lại:** ghi **facts trước, diễn giải sau**. Trong mỗi Interview Record, phần trên là những gì user nói và làm; phần dưới mới là suy luận của người phỏng vấn. Hết chặng 3 vẫn **không tuyên bố validated**.
 
 ---
 
@@ -84,9 +112,13 @@ Người phù hợp để phỏng vấn: **trong bảy ngày gần đây đã gh
 
 > Mục này bắt buộc theo luật của bài lab. Cập nhật mỗi khi có thêm một lần dùng AI.
 
-| # | Công cụ       | Dùng vào việc gì                                                                                             | Phạm vi output của AI                                                                                            | Người chịu trách nhiệm nội dung cuối |
-| - | --------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- |
-| 1 | Claude (Cowork) | Đọc hiểu đề bài và soạn README.md từ nội dung đề bài + solution directive Case B do nhóm cung cấp | Chỉ định dạng và sắp xếp lại nội dung đề bài; không thêm giả thuyết, dữ liệu hay kết luận mới | _(điền tên)_                           |
+| # | Công cụ | Dùng vào việc gì | Phạm vi output của AI | Người chịu trách nhiệm nội dung cuối |
+|---|---|---|---|---|
+| 1 | Claude (Cowork) | Đọc hiểu đề bài và soạn README.md từ nội dung đề bài + solution directive Case B do nhóm cung cấp | Chỉ định dạng và sắp xếp lại nội dung đề bài; không thêm giả thuyết, dữ liệu hay kết luận mới | _(điền tên)_ |
+| 2 | Claude (Cowork) | Dựng khung file `01-problem-hypothesis.md` theo đúng template 6 bước của bài lab | Chỉ tạo cấu trúc file, chép lại directive nguyên văn và bộ câu hỏi dẫn dắt; **toàn bộ ô phân tích để trống cho nhóm tự điền** | _(điền tên)_ |
+| 3 | Claude (Cowork) | Dựng khung file `02-conversation-guide-v1.md` theo đúng template của bài lab | Chỉ tạo cấu trúc file, chép lại probe bank, bảng ba phản xạ và checklist rà soát; **Big 3, tiêu chí tuyển, lời mở đầu và toàn bộ câu hỏi phỏng vấn để trống cho nhóm tự viết** | _(điền tên)_ |
+
+| 4 | Claude (Cowork) | Dựng **bản mẫu trống** `03-interview-notes/example-interview-record.md` và mục hướng dẫn 3b trong README | Chỉ tạo cấu trúc bảng ghi chép và checklist quy trình; **không có nội dung phỏng vấn, quote hay diễn giải nào** — toàn bộ do thành viên tự điền sau khi phỏng vấn | _(điền tên)_ |
 
 **Cam kết:** không có interview data, quote, chi tiết user hay reflection nào trong repo này được sinh ra bởi AI.
 
@@ -94,7 +126,7 @@ Người phù hợp để phỏng vấn: **trong bảy ngày gần đây đã gh
 
 ## 5. Ghi chú tiến độ
 
-- [X] Đọc hiểu đề bài và dựng README
+- [x] Đọc hiểu đề bài và dựng README
 - [ ] Chặng 1 — Problem Hypothesis
 - [ ] Chặng 2 — Conversation Guide
 - [ ] Chặng 3 — Interview Practice (mỗi người 1 người ngoài nhóm)
