@@ -35,21 +35,19 @@ Ghi lại directive nguyên văn, sau đó diễn đạt lại dưới dạng m�
 
 | Chi tiết trong directive                        | Đây là gì? (giao diện / tên feature / công nghệ / khả năng) | Có bắt buộc không? |
 | ------------------------------------------------ | --------------------------------------------------------------------- | ---------------------- |
-| "AI Notes"                                       |                                                                       |                        |
-| Nút highlight                                   |                                                                       |                        |
-| Nhãn "Chưa hiểu"                              |                                                                       |                        |
-| Ô ghi chú / câu hỏi ngắn                    |                                                                       |                        |
-| "AI kết hợp và tổ chức"                     |                                                                       |                        |
-| Bước chỉnh sửa & xác nhận trước khi lưu |                                                                       |                        |
-| Thời điểm chạy: khi bài học kết thúc     |                                                                       |                        |
+| "AI Notes"                                       | Tên feature / thương hiệu                                            | Không — có thể gọi tên khác mà không đổi bản chất |
+| Nút highlight                                   | Giao diện cụ thể                                                     | Không — khả năng cốt lõi là "đánh dấu một đoạn nội dung là quan trọng ngay lúc đang học"; có thể làm bằng thao tác khác |
+| Nhãn "Chưa hiểu"                              | Giao diện cụ thể (label)                                             | Không — khả năng cốt lõi là "gắn cờ một điểm không hiểu ngay lúc phát sinh, để khỏi phải nhớ lại sau" |
+| Ô ghi chú / câu hỏi ngắn                    | Giao diện cụ thể                                                     | Không — khả năng cốt lõi là "ghi lại một suy nghĩ/câu hỏi ngắn ngay tại thời điểm nó xuất hiện" |
+| "AI kết hợp và tổ chức"                     | Công nghệ / cách triển khai cụ thể                                    | Không bắt buộc phải là AI — khả năng cốt lõi là "biến các dấu vết rời rạc thành một bản tổng hợp có cấu trúc mà user không phải tự làm thủ công" |
+| Bước chỉnh sửa & xác nhận trước khi lưu | Một phần giao diện, nhưng phần "được kiểm soát đầu ra" có thể là khả năng cần thiết | Hình thức (nút xác nhận) thì không bắt buộc; nhưng ở mức khái niệm, việc user giữ quyền kiểm soát nội dung cuối có thể là điều cần giữ |
+| Thời điểm chạy: khi bài học kết thúc     | Hình thức triển khai (thời điểm trigger)                              | Không — có thể tổng hợp theo yêu cầu, theo phiên, hoặc định kỳ |
 
 ### Capability trung tính
 
 _(Mô tả khả năng cần tạo ra, không dùng tên feature, không nhắc AI, không nhắc màn hình.)_
-
 ```
-..........................................................................................
-..........................................................................................
+Khả năng giúp người học gom lại những dấu vết rời rạc phát sinh trong lúc học (điểm quan trọng, điểm chưa hiểu, câu hỏi/ghi chú) thành một bản tổng hợp có cấu trúc mà không cần tự làm thủ công, đồng thời vẫn giữ cho người học quyền kiểm soát nội dung cuối cùng trước khi lưu lại.
 ```
 
 ---
@@ -66,27 +64,29 @@ _(Mô tả khả năng cần tạo ra, không dùng tên feature, không nhắc 
 - Đâu là **output** team tạo ra, đâu là **outcome** team chỉ có thể ảnh hưởng?
 - Nếu user không thay đổi hành vi, solution còn tạo được outcome không?
 
+
 ```text
-Solution → ................................ → ................................ → Outcome
+Solution → User tin tưởng & quay lại mở bản ghi chú → User dùng bản ghi chú để ôn tập/tra cứu → Outcome: User nắm/nhớ nội dung bài học tốt hơn theo thời gian
 ```
 
 ### Các thay đổi được kỳ vọng
 
-1. `........................................................................................`
-2. `........................................................................................`
-3. `........................................................................................`
+1. `User tin tưởng và mở lại bản ghi chú do AI tạo ra, thay vì đọc lại toàn bộ bài học từ đầu.`
+2. `User dùng các dấu vết (highlight, "chưa hiểu", câu hỏi) trong lúc học nhiều/thật hơn, vì biết chúng sẽ được tổng hợp thành thứ hữu ích.`
+3. `User chủ động quay lại xem bản ghi chú ở một thời điểm sau (ôn tập, trước khi làm bài), thay vì tạo ra rồi bỏ quên.`
 
 ### Tách output và outcome
 
+
 |                                            | Nội dung | Team kiểm soát được đến đâu? |
 | ------------------------------------------ | --------- | ------------------------------------- |
-| **Output** (team tạo ra)            |           |                                       |
-| **Outcome** (team chỉ ảnh hưởng) |           |                                       |
+| **Output** (team tạo ra)            | Một bản ghi chú cá nhân có cấu trúc, được tạo và lưu lại sau mỗi bài học | Kiểm soát hoàn toàn — team quyết định nội dung và hình thức bản ghi chú |
+| **Outcome** (team chỉ ảnh hưởng) | User có quay lại dùng bản ghi chú để ôn tập hay không; user có nắm/nhớ nội dung bài học tốt hơn hay không | Chỉ ảnh hưởng — phụ thuộc vào việc user có tin tưởng và thực sự dùng bản ghi chú sau khi nó được tạo ra |
 
 **Mắt xích yếu nhất trong chuỗi (nếu gãy thì outcome không xảy ra):**
 
 ```
-..........................................................................................
+User có thực sự quay lại mở và dùng bản ghi chú sau khi nó được tạo ra hay không. Nếu bước này không xảy ra, toàn bộ chuỗi outcome sụp đổ, bất kể bản ghi chú được tổ chức tốt đến đâu.
 ```
 
 ---
@@ -106,23 +106,29 @@ Một solution có thể liên quan đến nhiều nhóm user hoặc stakeholder
 - Ai hưởng lợi gián tiếp?
 - Người nhận feature có chắc là người sở hữu pain chính không?
 
+
 | Actor | Họ đang làm gì? | Pain hoặc hậu quả có thể có | Họ hưởng lợi thế nào? |
 | ----- | ------------------- | --------------------------------- | --------------------------- |
-|       |                     |                                   |                             |
-|       |                     |                                   |                             |
-|       |                     |                                   |                             |
-|       |                     |                                   |                             |
+| Học viên — lúc đang học | Nghe/đọc bài, tranh thủ đánh dấu nhanh điều thấy quan trọng hoặc chưa hiểu | Có thể không đủ thời gian/sự tập trung để đánh dấu đầy đủ; sợ đánh dấu làm gián đoạn mạch học | Ghi chú nhanh mà không phải dừng lại viết dài |
+| Học viên — lúc ôn tập sau đó | Cố nhớ lại nội dung đã học để chuẩn bị làm bài / áp dụng | Quên nội dung, không tìm lại được ý quan trọng, phải đọc lại toàn bộ bài học tốn thời gian | Có bản tổng hợp sẵn để tra cứu nhanh, tiết kiệm thời gian ôn tập |
+| Instructor / người tạo khoá học | Theo dõi tiến độ, thiết kế nội dung bài học | Không biết học viên có thực sự ôn tập lại hay không; khó biết điểm nào học viên phổ biến "chưa hiểu" | Nếu học viên ôn tập tốt hơn → kết quả học tập / tỉ lệ hoàn thành khoá cao hơn |
+| Đội vận hành sản phẩm / nền tảng học | Theo dõi retention, completion rate | Nếu học viên không quay lại nền tảng để ôn tập, engagement giảm | Feature có thể giữ chân user quay lại nền tảng nhiều hơn |
 
 **Actor nhóm chọn để điều tra trước:**
 
 ```
-..........................................................................................
+Học viên — lúc ôn tập sau đó
 ```
 
 **Vì sao chọn nhánh này thay vì actor khác:**
 
 ```
-..........................................................................................
+Đây là actor có khả năng cao nhất đang trải nghiệm pain rõ ràng và cụ thể (khó tìm lại ý
+quan trọng, phải đọc lại toàn bộ bài, quên nội dung), trong khi "học viên lúc đang học" thì
+pain (nếu có) thường ẩn và khó gợi ra bằng phỏng vấn — họ có thể đang học bình thường mà
+không tự nhận ra vướng mắc. Chọn "lúc ôn tập" cũng giúp hỏi về một hành vi cụ thể, gần đây,
+dễ kể lại (ví dụ: "lần gần nhất bạn cố nhớ lại nội dung một bài đã học, chuyện gì đã xảy
+ra?"), thay vì hỏi về một trạng thái mơ hồ.
 ```
 
 ---

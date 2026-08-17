@@ -119,8 +119,9 @@ Người phù hợp để phỏng vấn: **trong bảy ngày gần đây đã gh
 | 3 | Claude (Cowork) | Dựng khung file `02-conversation-guide-v1.md` theo đúng template của bài lab | Chỉ tạo cấu trúc file, chép lại probe bank, bảng ba phản xạ và checklist rà soát; **Big 3, tiêu chí tuyển, lời mở đầu và toàn bộ câu hỏi phỏng vấn để trống cho nhóm tự viết** | _(điền tên)_ |
 
 | 4 | Claude (Cowork) | Dựng **bản mẫu trống** `03-interview-notes/example-interview-record.md` và mục hướng dẫn 3b trong README | Chỉ tạo cấu trúc bảng ghi chép và checklist quy trình; **không có nội dung phỏng vấn, quote hay diễn giải nào** — toàn bộ do thành viên tự điền sau khi phỏng vấn | _(điền tên)_ |
+| 5 | Claude (Cowork) | Theo yêu cầu trực tiếp của nhóm, soạn **bản dự thảo nội dung** cho 3 mục đầu của `01-problem-hypothesis.md` (Solution — bóc tách & capability trung tính; Change — chuỗi thay đổi kỳ vọng & output/outcome; Actor — bảng actor & lựa chọn actor điều tra trước) | Toàn bộ câu chữ trong 3 mục này là **do AI đề xuất**, đánh dấu rõ `[DỰ THẢO — AI đề xuất]` trong file; nhóm **bắt buộc phải đọc, thảo luận và viết lại theo đúng hiểu biết/lập luận thật của nhóm** trước khi coi là hypothesis chính thức. Mục 4–6 (Situation & Job, Pain, Evidence) và phần chốt hypothesis + Parking Lot **vẫn để trống, chưa được AI hay ai điền** | _(điền tên)_ |
 
-**Cam kết:** không có interview data, quote, chi tiết user hay reflection nào trong repo này được sinh ra bởi AI.
+**Cam kết:** không có interview data, quote, chi tiết user hay reflection nào trong repo này được sinh ra bởi AI. Riêng dòng #5 ở trên là ngoại lệ có chủ đích (dự thảo phân tích, không phải dữ liệu phỏng vấn) — nhóm chịu trách nhiệm rà soát và viết lại trước khi nộp, không nộp nguyên văn bản dự thảo của AI.
 
 ---
 
