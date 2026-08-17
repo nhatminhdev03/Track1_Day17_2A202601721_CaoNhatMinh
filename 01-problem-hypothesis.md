@@ -255,10 +255,10 @@ Evidence phải đến từ **sự kiện, hành vi, workaround và hậu quả 
 **Problem Hypothesis nhóm mang sang Chặng 2:**
 
 ```
-Khi vừa hoàn thành bài học, học viên đã tạo highlight, ghi chú hoặc câu hỏi có
-thể gặp khó khăn trong việc tổng hợp các dấu vết rời rạc thành nội dung dễ ôn
-lại; điều này có thể khiến họ bỏ sót phần chưa hiểu hoặc mất nhiều thời gian
-tự sắp xếp ghi chú.
+Khi cần ôn lại một bài học đã hoàn thành, học viên đã tạo highlight, ghi chú
+hoặc câu hỏi có thể gặp khó khăn trong việc tổng hợp các dấu vết rời rạc thành
+nội dung dễ ôn lại; điều này có thể khiến họ bỏ sót phần chưa hiểu hoặc mất
+nhiều thời gian tự sắp xếp ghi chú.
 ```
 
 **Điều gì phải đúng để giả thuyết đứng vững:**
