@@ -151,8 +151,9 @@ Tình huống bắt đầu
 > Khi **[tình huống/trigger]**, **[actor]** đang cố **[việc cần hoàn thành]** bằng cách **[cách họ đang làm hiện tại]**.
 
 ```
-..........................................................................................
-..........................................................................................
+Khi vừa hoàn thành một bài học có nhiều ý mới hoặc phần chưa hiểu, học viên
+đang cố tổng hợp lại những nội dung cần nhớ và các điểm cần xem lại bằng cách
+xem lại highlight, ghi chú ngắn, câu hỏi đã viết hoặc tự ghi chép thêm.
 ```
 
 ### JTBD Hypothesis
@@ -160,11 +161,12 @@ Tình huống bắt đầu
 > Khi **[situation]**, tôi muốn **[progress]**, để có thể **[desired outcome]**.
 
 ```
-..........................................................................................
-..........................................................................................
+Khi kết thúc một bài học, tôi muốn tổng hợp các ý quan trọng, các phần chưa
+hiểu và câu hỏi của mình, để có thể ôn lại nhanh hơn và biết rõ mình cần học
+tiếp hoặc tìm hiểu thêm điều gì.
 ```
 
-**Kiểm tra:** bỏ hết AI và feature ra khỏi câu trên — job này còn tồn tại không?  ☐ Có  ☐ Không
+**Kiểm tra:** bỏ hết AI và feature ra khỏi câu trên — job này còn tồn tại không?  v Có  ☐ Không
 
 ---
 
